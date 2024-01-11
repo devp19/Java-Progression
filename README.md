@@ -1,1 +1,1 @@
-# Repository contains files/mini-projects demonstrating Learning Progression in Java!
+# Files/Mini-Projects Demonstrating Learning Progression in Java!
