@@ -2,3 +2,4 @@
 Hypotenuse/.vscode/settings.json
 *.md
 *.json
+.DS_Store
