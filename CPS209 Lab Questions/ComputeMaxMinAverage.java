@@ -19,19 +19,8 @@ public class ComputeMaxMinAverage
         double max = 0;
         double sum = 0.0;
 
-        // Use this variable to keep track of the number of floating point numbers read in from numbers string above
-        // After the loop is finished, you can use count to compute the average.
-        int count = 0;
-        //-----------Start below here. To do: approximate lines of code = 8
-        // Use a while loop and read one number at a time using the scanner "in" (see above).
-        // Hint: use in.hasNextDouble() as the loop condition
-        // Inside the loop, update variable sum and update variables min and max if necessary
-        // Don't forget to increment variable count.
-        // Hint: never call in.nextDouble() more than once inside a loop - call it once and assign the result to a variable.
-        // Use this variable to test the value
-        
-        
-        
+        int count = 0;     
+       
         while (in.hasNextDouble()){
             count += 1;
             double number = in.nextDouble();
@@ -47,17 +36,8 @@ public class ComputeMaxMinAverage
             }
         }
         
-         
-        //-----------------End here. Please do not remove this comment. Reminder: no changes outside the todo regions.
-
-        //-----------Start below here. To do: approximate lines of code = 2
-        // Create a double variable called range whose value is given by the difference between the max and min
-        // Create a second variable called average whose value is given by the average of the values
-        
         double range = max-min;
         double average = (sum / count);
-        
-        //-----------------End here. Please do not remove this comment. Reminder: no changes outside the todo regions.
 
         System.out.println("------ Max Test -------");
         System.out.printf("OUTPUT:   The maximum is %.2f%n", max);
