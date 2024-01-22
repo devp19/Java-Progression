@@ -22,15 +22,7 @@ public class ComputeSumofEvenDigits
 
             int sum = 0;
             int digit = 0;
-
-            //-----------Start below here. To do: approximate lines of code = 5
-            // Below, write the code to calculate the sum of the even digits in num
-            // Use a while loop.
-            // While num is greater than 0, use the modulus operator to strip off the next digit.
-            // Check if this digit is even, if so add it to the sum variable
-            // Finally, divide the num by 10 to "throw away" the current digit
-            // HINT: To determine if a digit is even, use modulo 2
-            
+          
             while(num > 0){
 
                 digit = num%10;
@@ -42,12 +34,6 @@ public class ComputeSumofEvenDigits
                 num /=10;
             }
             
-            
-            
-            
-            
-            //-----------------End here. Please do not remove this comment. Reminder: no changes outside the todo regions.
-
             System.out.println("\n------ Test " + test + " ------");
             System.out.println("OUTPUT:   The sum is " + sum);
             if (test == 1)
