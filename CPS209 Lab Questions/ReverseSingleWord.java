@@ -20,22 +20,13 @@ public class ReverseSingleWord
             String word = in.next();
 
             String reversedWord = "";
-
-            //-----------Start below here. To do: approximate lines of code = 3
-            // Reverse word and store in a variable called reversedWord.
-            // 1. You must use a for loop and the charAt() method of class String to
-            // store the reversed word into a string and then print the reversed word
-            // Hint: count down rather than up in the for loop (i.e. start at the end of the word)
-            
+           
             for(int i = word.length()-1; i>=0; i-=1){
 
                 reversedWord += word.charAt(i);
 
             }
-            
-            
-            
-            //-----------------End here. Please do not remove this comment. Reminder: no changes outside the todo regions.
+                  
 
             System.out.println("------ Test " + test + " ------");
             System.out.println("OUTPUT:   The reverse of \"" + word + "\" is " + reversedWord);
