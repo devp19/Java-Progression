@@ -16,14 +16,6 @@ public class AddOddNumbers
         String numbers = "7 67 23 18 16 99 45 51 42 64 33 71";
         Scanner in = new Scanner(numbers);
         int sum = 0;
-
-        //-----------Start below here. To do: approximate lines of code = 4
-        // Use a while loop, check for another integer num using Scanner in (hint: use in.hasNextInt())
-        // Get the next int and assign it to variable. Use an "if" statement to check if the number is between
-        // a and b (>= a and <= b) and if it is odd.
-        // If so, add to the sum variable. Hint: use the % operator to determine if a number is odd
-        // Note: inside the loop, never call in.nextInt() more than once. Call it once only and assign the result to a variable.
-        
         
         while(in.hasNextInt()){
             int number = in.nextInt();
@@ -34,11 +26,6 @@ public class AddOddNumbers
             }
         }
         
-        
-        
-        
-        //-----------------End here. Please do not remove this comment. Reminder: no changes outside the todo regions.
-
         System.out.println("------ Test ------");
         System.out.println("OUTPUT:   The sum is " + sum);
         System.out.println("EXPECTED: The sum is 152");
