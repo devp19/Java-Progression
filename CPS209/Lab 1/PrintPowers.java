@@ -18,9 +18,8 @@ public class PrintPowers
         
         for(int power = 1; power <= 20; power++){
 
-            int result = (int)Math.pow(2, power);
-
-            if(result % 3 != 0){
+            if(power % 3 != 0){
+                int result = (int)Math.pow(2, power);
                 sum += result;
             }
         }
