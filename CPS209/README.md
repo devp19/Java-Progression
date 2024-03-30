@@ -1,1 +1,1 @@
-### Lab & Quiz Questions are in courtesy of the Computer Science department at TMU. 
+### Lab & Quiz Questions Are Credited To The Computer Science Department At TMU. 
